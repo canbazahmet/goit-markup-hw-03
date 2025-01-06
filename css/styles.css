@@ -161,7 +161,7 @@ img {
 }
 
 .features-section .container .features-items .features-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-section .container .features-items .features-item .features-header {
@@ -203,7 +203,7 @@ img {
 
 .our-team-section .container .our-team-items .our-team-item {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -252,7 +252,7 @@ img {
 }
 
 .our-portfolio-section .container .our-portfolio-items .our-portfolio-item {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .our-portfolio-section
