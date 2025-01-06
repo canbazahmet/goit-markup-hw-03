@@ -10,7 +10,7 @@ img {
 }
 
 .container {
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -72,7 +72,13 @@ img {
   font-style: normal;
 }
 
+
 .header-section .header-top .info .info-links {
+  display: flex;
+  gap: 40px;
+}
+
+.header-section .header-top .info .info-links .info-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -80,11 +86,11 @@ img {
   text-decoration: none;
 }
 
-.header-section .header-top .info .info-links:focus {
+.header-section .header-top .info .info-links .info-link:focus {
   color: #404bbf;
 }
 
-.header-section .header-top .info .info-links:hover {
+.header-section .header-top .info .info-links .info-link:hover {
   color: #404bbf;
 }
 
