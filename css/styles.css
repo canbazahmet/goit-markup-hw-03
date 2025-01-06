@@ -161,7 +161,7 @@ img {
 }
 
 .features-section .container .features-items .features-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 24px) / 4);
 }
 
 .features-section .container .features-items .features-item .features-header {
@@ -252,7 +252,7 @@ img {
 }
 
 .our-portfolio-section .container .our-portfolio-items .our-portfolio-item {
-  flex-basis: calc((100% - 2 * 24px) / 3);
+  flex-basis: calc((100% - 24px) / 3);
 }
 
 .our-portfolio-section
