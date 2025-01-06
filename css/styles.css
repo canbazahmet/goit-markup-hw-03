@@ -72,7 +72,6 @@ img {
   font-style: normal;
 }
 
-
 .header-section .header-top .info .info-links {
   display: flex;
   gap: 40px;
@@ -97,7 +96,7 @@ img {
 .hero-section {
   background-color: #2e2f42;
   color: #ffffff;
-  padding: 188px 0
+  padding: 188px 0;
 }
 
 .hero-section .hero-header {
@@ -180,6 +179,7 @@ img {
 
 .our-team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-section .our-team-header {
@@ -189,25 +189,39 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
-.our-team-section .our-team-list {
+.our-team-section .our-team-items {
+  display: flex;
+  gap: 24px;
+}
+
+.our-team-section .our-team-items .our-team-item {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-section .our-team-list .our-team-name {
+.our-team-section .our-team-items .our-team-item .our-team-profile {
+  padding: 32px 0;
+}
+
+.our-team-section .our-team-items .our-team-item .our-team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 
-.our-team-section .our-team-list .our-team-text {
+.our-team-section .our-team-items .our-team-item .our-team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .our-portfolio-header {
@@ -250,7 +264,7 @@ img {
 }
 
 .footer-dark .nav-logo .nav-logo-studio {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 .footer-text {
