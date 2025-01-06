@@ -10,7 +10,7 @@ img {
 }
 
 .container {
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -45,20 +45,26 @@ img {
   color: #2e2f42;
 }
 
-.header-section .header-top ul li .nav-links {
+.header-section .header-top .nav-menu .nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.header-section .header-top .nav-menu .nav-links li .nav-link {
   text-decoration: none;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
-.header-section .header-top .nav-menu ul li .nav-links:focus {
+.header-section .header-top .nav-menu .nav-links li .nav-link:focus {
   color: #404bbf;
 }
 
-.header-section .header-top .nav-menu ul li .nav-links:hover {
+.header-section .header-top .nav-menu .nav-links li .nav-link:hover {
   color: #404bbf;
 }
 
