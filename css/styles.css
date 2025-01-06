@@ -48,6 +48,7 @@ img {
 .header-section .header-top .nav-menu .nav-links {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 
 .header-section .header-top .nav-menu .nav-links li .nav-link {
@@ -75,6 +76,7 @@ img {
 .header-section .header-top .info .info-links {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 
 .header-section .header-top .info .info-links .info-link {
@@ -155,10 +157,11 @@ img {
 .features-section .features-items {
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 
 .features-section .features-items .features-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-section .features-items .features-item .features-header {
@@ -195,16 +198,17 @@ img {
 .our-team-section .our-team-items {
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 
 .our-team-section .our-team-items .our-team-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-section .our-team-items .our-team-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .our-team-section .our-team-items .our-team-item .our-team-profile {
@@ -248,10 +252,11 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  list-style-type: none;
 }
 
 .our-portfolio-section .our-portfolio-items .our-portfolio-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .our-portfolio-section
