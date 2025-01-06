@@ -161,7 +161,7 @@ img {
 }
 
 .features-section .features-items .features-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 24px) / 4);
 }
 
 .features-section .features-items .features-item .features-header {
@@ -202,13 +202,9 @@ img {
 }
 
 .our-team-section .our-team-items .our-team-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 24px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-}
-
-.our-team-section .our-team-items .our-team-item {
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .our-team-section .our-team-items .our-team-item .our-team-profile {
