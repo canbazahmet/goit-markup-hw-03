@@ -101,7 +101,7 @@ img {
   padding: 188px 0;
 }
 
-.hero-section .hero-header {
+.hero-section .container .hero-header {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -112,7 +112,7 @@ img {
   margin: 0 auto;
 }
 
-.hero-section .hero-button {
+.hero-section .container .hero-button {
   display: block;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -129,11 +129,11 @@ img {
   border-radius: 4px;
 }
 
-.hero-section .hero-button:hover {
+.hero-section .container .hero-button:hover {
   background-color: #404bbf;
 }
 
-.hero-section .hero-button:focus {
+.hero-section .container .hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -154,17 +154,17 @@ img {
   padding: 120px 0;
 }
 
-.features-section .features-items {
+.features-section .container .features-items {
   display: flex;
   gap: 24px;
   list-style-type: none;
 }
 
-.features-section .features-items .features-item {
-  flex-basis: calc((100% - 24px) / 4);
+.features-section .container .features-items .features-item {
+  width: calc((100% - 72px) / 4);
 }
 
-.features-section .features-items .features-item .features-header {
+.features-section .container .features-items .features-item .features-header {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -173,7 +173,7 @@ img {
   margin-bottom: 8px;
 }
 
-.features-section .features-items .features-item .features-text {
+.features-section .container .features-items .features-item .features-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -185,7 +185,7 @@ img {
   padding: 120px 0;
 }
 
-.our-team-section .our-team-header {
+.our-team-section .container .our-team-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -195,23 +195,23 @@ img {
   margin-bottom: 72px;
 }
 
-.our-team-section .our-team-items {
+.our-team-section .container .our-team-items {
   display: flex;
   gap: 24px;
   list-style-type: none;
 }
 
-.our-team-section .our-team-items .our-team-item {
+.our-team-section .container .our-team-items .our-team-item {
   flex-basis: calc((100% - 24px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-section .our-team-items .our-team-item .our-team-profile {
+.our-team-section .container .our-team-items .our-team-item .our-team-profile {
   padding: 32px 0;
 }
 
-.our-team-section .our-team-items .our-team-item .our-team-name {
+.our-team-section .container .our-team-items .our-team-item .our-team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -221,7 +221,7 @@ img {
   margin-bottom: 8px;
 }
 
-.our-team-section .our-team-items .our-team-item .our-team-text {
+.our-team-section .container .our-team-items .our-team-item .our-team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -233,7 +233,7 @@ img {
   padding: 120px 0;
 }
 
-.our-portfolio-section .our-portfolio-header {
+.our-portfolio-section .container .our-portfolio-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -243,7 +243,7 @@ img {
   margin-bottom: 72px;
 }
 
-.our-portfolio-section .our-portfolio-items {
+.our-portfolio-section .container .our-portfolio-items {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -251,11 +251,12 @@ img {
   list-style-type: none;
 }
 
-.our-portfolio-section .our-portfolio-items .our-portfolio-item {
-  flex-basis: calc((100% - 48px) / 3);
+.our-portfolio-section .container .our-portfolio-items .our-portfolio-item {
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
 .our-portfolio-section
+  .container
   .our-portfolio-items
   .our-portfolio-item
   .our-portfolio-profile {
@@ -266,6 +267,7 @@ img {
 }
 
 .our-portfolio-section
+  .container
   .our-portfolio-items
   .our-portfolio-item
   .our-portfolio-profile
@@ -278,6 +280,7 @@ img {
 }
 
 .our-portfolio-section
+  .container
   .our-portfolio-items
   .our-portfolio-item
   .our-portfolio-profile
@@ -293,7 +296,7 @@ img {
   padding: 100px 0;
 }
 
-.footer-section .nav-logo {
+.footer-section .container .nav-logo {
   display: inline-block;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -306,11 +309,11 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-section .nav-logo .nav-logo-studio {
+.footer-section .container .nav-logo .nav-logo-studio {
   color: #f4f4fd;
 }
 
-.footer-section .footer-text {
+.footer-section .container .footer-text {
   max-width: 264px;
   line-height: 1.5;
   color: #f4f4fd;
