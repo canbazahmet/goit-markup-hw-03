@@ -161,7 +161,7 @@ img {
 }
 
 .features-section .container .features-items .features-item {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .features-section .container .features-items .features-item .features-header {
