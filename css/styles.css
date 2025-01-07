@@ -10,7 +10,11 @@ html {
 
 img {
   display: block;
-  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 .container {
@@ -52,7 +56,6 @@ img {
 .header-section .header-top .nav-menu .nav-links {
   display: flex;
   gap: 40px;
-  list-style-type: none;
 }
 
 .header-section .header-top .nav-menu .nav-links li .nav-link {
@@ -80,7 +83,6 @@ img {
 .header-section .header-top .info .info-links {
   display: flex;
   gap: 40px;
-  list-style-type: none;
 }
 
 .header-section .header-top .info .info-links .info-link {
@@ -161,7 +163,6 @@ img {
 .features-section .container .features-items {
   display: flex;
   gap: 24px;
-  list-style-type: none;
 }
 
 .features-section .container .features-items .features-item {
